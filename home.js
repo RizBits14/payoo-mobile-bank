@@ -26,3 +26,14 @@ document.getElementById('add-money-btn').addEventListener('click', function(e){
 
     document.getElementById('available-balance').innerText = totalNewAvailableBalance
 })
+
+// Toggling Features
+
+document.getElementById('add-button').addEventListener('click', function(){ 
+    document.getElementById('cash-out-parent').style.display = 'none'
+    document.getElementById('add-money-parent').style.display = 'block'
+})
+document.getElementById('cash-out-button').addEventListener('click', function(){ 
+    document.getElementById('cash-out-parent').style.display = 'block'
+    document.getElementById('add-money-parent').style.display = 'none'
+})

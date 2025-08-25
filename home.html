@@ -37,34 +37,34 @@
             </p>
         </div>
         <div class="grid grid-cols-3 gap-4 mt-6">
-            <div class="text-center p-3 rounded-lg border-2 border-gray-300">
+            <div id="add-button" class="text-center p-3 rounded-lg border-2 border-gray-300">
                 <img class="mx-auto" src="./assets/wallet1.png" alt="">
                 <h2>Add Money</h2>
             </div>
-            <div class="text-center p-3 rounded-lg border-2 border-gray-300">
+            <div id="cash-out-button" class="text-center p-3 rounded-lg border-2 border-gray-300">
                 <img class="mx-auto" src="./assets/send1.png" alt="">
-                <h2>Add Money</h2>
+                <h2>Cash Out</h2>
             </div>
             <div class="text-center p-3 rounded-lg border-2 border-gray-300">
                 <img class="mx-auto" src="./assets/money1.png" alt="">
-                <h2>Add Money</h2>
+                <h2>Transfer Money</h2>
             </div>
             <div class="text-center p-3 rounded-lg border-2 border-gray-300">
                 <img class="mx-auto" src="./assets/bonus1.png" alt="">
-                <h2>Add Money</h2>
+                <h2>Get Bonus</h2>
             </div>
             <div class="text-center p-3 rounded-lg border-2 border-gray-300">
                 <img class="mx-auto" src="./assets/purse1.png" alt="">
-                <h2>Add Money</h2>
+                <h2>Pay Bill</h2>
             </div>
             <div class="text-center p-3 rounded-lg border-2 border-gray-300">
                 <img class="mx-auto" src="./assets/transaction1.png" alt="">
-                <h2>Add Money</h2>
+                <h2>Transactions</h2>
             </div>
         </div>
     </div>
     <div class="all-form-sections max-w-lg mx-auto">
-        <div>
+        <div id="add-money-parent">
             <h1 class="my-5 font-bold ml-3">Add Money</h1>
             <form class="bg-white rounded-2xl p-8" action="">
                 <div class="mb-3">
@@ -97,6 +97,9 @@
                 <button id="add-money-btn" class="btn !bg-[#0874F2] mt-5 w-full !rounded-3xl !text-white">Add
                     Money</button>
             </form>
+        </div>
+        <div id="cash-out-parent" style="display: none;">
+            <h1 class="my-5 font-bold ml-3">Cash Out</h1>
         </div>
     </div>
     <script src="./home.js"></script>
