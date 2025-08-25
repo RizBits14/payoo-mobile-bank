@@ -100,6 +100,27 @@
         </div>
         <div id="cash-out-parent" style="display: none;">
             <h1 class="my-5 font-bold ml-3">Cash Out</h1>
+            <form class="bg-white rounded-2xl p-8" action="">
+                <div>
+                    <label class="font-semibold" for="">Agent Number</label>
+                    <br>
+                    <input id="agent-number" type="text" placeholder="Enter 11 digit number"
+                        class="input bg-[#f4f5f7] mt-3 !rounded-3xl !w-full" />
+                </div>
+                <div class="mt-3">
+                    <label class="font-semibold" for="">Amount</label>
+                    <br>
+                    <input id="withdraw-amount" type="text" placeholder="Enter amount to withdraw"
+                        class="input bg-[#f4f5f7] mt-3 !rounded-3xl !w-full" />
+                </div>
+                <div class="mt-3">
+                    <label class="font-semibold" for="">Pin Number</label>
+                    <br>
+                    <input id="cash-out-pin" type="text" placeholder="Enter 4 digit pin number"
+                        class="input bg-[#f4f5f7] mt-3 !rounded-3xl !w-full" />
+                </div>
+                <button id="withdraw-btn" class="btn !bg-[#0874F2] mt-5 w-full !rounded-3xl !text-white">Withdraw Money</button>
+            </form>
         </div>
     </div>
     <script src="./home.js"></script>
