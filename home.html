@@ -45,11 +45,11 @@
                 <img class="mx-auto" src="./assets/send1.png" alt="">
                 <h2>Cash Out</h2>
             </div>
-            <div class="text-center p-3 rounded-lg border-2 border-gray-300">
+            <div id="transfer-button" class="text-center p-3 rounded-lg border-2 border-gray-300">
                 <img class="mx-auto" src="./assets/money1.png" alt="">
                 <h2>Transfer Money</h2>
             </div>
-            <div class="text-center p-3 rounded-lg border-2 border-gray-300">
+            <div id="get-bonus-button" class="text-center p-3 rounded-lg border-2 border-gray-300">
                 <img class="mx-auto" src="./assets/bonus1.png" alt="">
                 <h2>Get Bonus</h2>
             </div>
@@ -64,7 +64,7 @@
         </div>
     </div>
     <div class="all-form-sections max-w-lg mx-auto">
-        <div id="add-money-parent">
+        <div class="form" id="add-money-parent">
             <h1 class="my-5 font-bold ml-3">Add Money</h1>
             <form class="bg-white rounded-2xl p-8" action="">
                 <div class="mb-3">
@@ -98,7 +98,7 @@
                     Money</button>
             </form>
         </div>
-        <div id="cash-out-parent" style="display: none;">
+        <div class="form" id="cash-out-parent" style="display: none;">
             <h1 class="my-5 font-bold ml-3">Cash Out</h1>
             <form class="bg-white rounded-2xl p-8" action="">
                 <div>
@@ -121,6 +121,12 @@
                 </div>
                 <button id="withdraw-btn" class="btn !bg-[#0874F2] mt-5 w-full !rounded-3xl !text-white">Withdraw Money</button>
             </form>
+        </div>
+        <div class="form" id="transfer-money-parent" style="display: none;">
+            <h1 class="my-5 font-bold ml-3">Transfer Money</h1>
+        </div>
+        <div class="form" id="get-bonus-parent" style="display: none;">
+            <h1 class="my-5 font-bold ml-3">Get Bonus</h1>
         </div>
     </div>
     <script src="./home.js"></script>
