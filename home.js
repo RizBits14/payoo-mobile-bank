@@ -135,13 +135,13 @@ document.getElementById('bonus-btn').addEventListener('click', function (e) {
         return;
     }
     const availableBalance = getInnerText('available-balance');
-    setInnerText(availableBalance + 500); // example bonus
+    setInnerText(availableBalance + 500);
     alert('Bonus added successfully!');
 });
 
 document.getElementById('transactions-button').addEventListener('click', function () {
     const transactionContainer = document.getElementById('transaction-container')
-    transactionContainer.innerHTML = ""
+    transactionContainer.innerHTML = "" 
     for (const data of transactionData) {
         const div = document.createElement('div')
         div.innerHTML = `
