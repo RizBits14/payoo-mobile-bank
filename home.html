@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/Group.png" type="image/x-icon">
 
 </head>
 
@@ -119,14 +120,47 @@
                     <input id="cash-out-pin" type="text" placeholder="Enter 4 digit pin number"
                         class="input bg-[#f4f5f7] mt-3 !rounded-3xl !w-full" />
                 </div>
-                <button id="withdraw-btn" class="btn !bg-[#0874F2] mt-5 w-full !rounded-3xl !text-white">Withdraw Money</button>
+                <button id="withdraw-btn" class="btn !bg-[#0874F2] mt-5 w-full !rounded-3xl !text-white">Withdraw
+                    Money</button>
             </form>
         </div>
         <div class="form" id="transfer-money-parent" style="display: none;">
             <h1 class="my-5 font-bold ml-3">Transfer Money</h1>
+            <form class="bg-white rounded-2xl p-8" action="">
+                <div>
+                    <label class="font-semibold" for="">User Account Number</label>
+                    <br>
+                    <input id="agent-number" type="text" placeholder="Enter 11 digit number"
+                        class="input bg-[#f4f5f7] mt-3 !rounded-3xl !w-full" />
+                </div>
+                <div class="mt-3">
+                    <label class="font-semibold" for="">Amount</label>
+                    <br>
+                    <input id="withdraw-amount" type="text" placeholder="Enter amount to withdraw"
+                        class="input bg-[#f4f5f7] mt-3 !rounded-3xl !w-full" />
+                </div>
+                <div class="mt-3">
+                    <label class="font-semibold" for="">Pin Number</label>
+                    <br>
+                    <input id="cash-out-pin" type="text" placeholder="Enter 4 digit pin number"
+                        class="input bg-[#f4f5f7] mt-3 !rounded-3xl !w-full" />
+                </div>
+                <button id="withdraw-btn" class="btn !bg-[#0874F2] mt-5 w-full !rounded-3xl !text-white">Send
+                    Now</button>
+            </form>
         </div>
         <div class="form" id="get-bonus-parent" style="display: none;">
             <h1 class="my-5 font-bold ml-3">Get Bonus</h1>
+            <form class="bg-white rounded-2xl p-8" action="">
+                <div>
+                    <label class="font-semibold" for="">Enter Bonus Coupon</label>
+                    <br>
+                    <input id="agent-number" type="text" placeholder="Enter 11 digit number"
+                        class="input bg-[#f4f5f7] mt-3 !rounded-3xl !w-full" />
+
+                    <button id="withdraw-btn" class="btn !bg-[#0874F2] mt-5 w-full !rounded-3xl !text-white">Get
+                        Bonus</button>
+            </form>
         </div>
     </div>
     <script src="./home.js"></script>
